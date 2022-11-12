@@ -285,3 +285,36 @@ header{
     object-fit: cover;
     width: 100%;
 }
+
+.sobre{
+    background-color: #f5f5f5;
+}
+.sobre-header{
+    display: flex;
+    justify-content: center;
+}
+.sobre-header h2{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: #555;
+    border-bottom: 4px solid #7F00FF;
+    margin-bottom: 3rem;
+}
+.sobre-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foto1, .sobre-text{
+    max-width: 30%;
+}
+.foto1 img{
+    max-width: 100%;
+    border: 3px solid #7F00FF;
+    border-radius: 20px;
+}
+ol li{
+    list-style-type: decimal;
+    font-size: 30px;
+    font-family: var(--font-secundary);
+}
