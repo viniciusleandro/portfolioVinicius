@@ -186,7 +186,8 @@ header{
 }
 .menu-item{
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+
 }
 .menu-item img{
     width: 200px;
@@ -281,6 +282,7 @@ header{
 .conhecimento-text{
     font-family: var(--font-secundary);
     margin-top: 1rem;
+    font-size: 1.3rem;
 }
 .img-wrapper{
     grid-column: 7/12;
