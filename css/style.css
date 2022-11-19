@@ -309,11 +309,31 @@ header{
 }
 .sobre-body{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    text-align: center;
+    width: 100%;
 }
-.foto1, .sobre-text{
-    max-width: 30%;
+.sobre-body2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sobre-text{
+    width: 50%;
+}
+.foto1{
+    width: 50%;
+}
+.sobre-text{
+    border: 2px solid #E100FF;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0.1rem 0.1rem 1px #7F00FF;
+}
+.sobre-text p{
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
 }
 .foto1 img{
     max-width: 100%;
@@ -324,4 +344,34 @@ ol li{
     list-style-type: decimal;
     font-size: 30px;
     font-family: var(--font-secundary);
+}
+.sobre-text2{
+    border: 2px solid #E100FF;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0.1rem 0.1rem 1px #7F00FF;
+    text-align: left;
+}
+.sobre-text2{
+    width: 90%;
+}
+.documento{
+    font-size: 1.5rem;
+    font-family: var(--font-action);
+}
+.sobre-text2 h1{
+    font-size: 3rem;
+}
+.sobre-text2 p{
+    margin: 15px;
+}
+.redes{
+    font-size: 3rem;
+    margin-top: 40px;
+}
+.redes a{
+    margin: 0px 40px;
+}
+span{
+    color: #7F00FF;
 }
