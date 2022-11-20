@@ -330,6 +330,7 @@ header{
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0.1rem 0.1rem 1px #7F00FF;
+    text-align: left;
 }
 .sobre-text p{
     font-family: var(--font-primary);
@@ -374,4 +375,12 @@ ol li{
 }
 span{
     color: #7F00FF;
+}
+.objetivo-ul li{
+    font-family: var(--font-action);
+    font-size: 30px;
+    margin: 20px;
+}
+.objetivo-ul li{
+    list-style-type: disc;
 }
